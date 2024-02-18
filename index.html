@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Alpha Clash Pro</title>
     <!-- Css connected -->
-    <link rel="stylesheet" href="styles/style.css">
+    <link rel="stylesheet" href="styles/style.css" />
     <link
       href="https://cdn.jsdelivr.net/npm/daisyui@4.7.2/dist/full.min.css"
       rel="stylesheet"
@@ -13,17 +13,19 @@
     />
     <script src="https://cdn.tailwindcss.com"></script>
   </head>
-  <body class="min-h-screen bg-[#010313] bg-[url(images/background.png)]">
+  <body
+    class="min-h-screen bg-[#010313] bg-[url(images/background.png)] bg-no-repeat bg-center font-poppins"
+  >
     <main class="">
-        <section class="home">
-            <h1 class="text-8xl">Alpha Clash Pro</h1>
-        </section>
-        <section class="playGround">
-    
-        </section>
-        <section class="score">
-            
-        </section>
+      <section class="home min-h-screen text-white flex justify-center items-center">
+        <div class="flex flex-col items-center gap-10">
+          <h1 class="text-8xl font-anton uppercase">Alpha Clash Pro</h1>
+          <p>Unleash Your Keyboard Kung Fu : Press “Enter” to Play</p>
+          <button class="btn bg-white text-black">Play Now</button>
+        </div>
+      </section>
+      <section class="playGround"></section>
+      <section class="score"></section>
     </main>
   </body>
 </html>
